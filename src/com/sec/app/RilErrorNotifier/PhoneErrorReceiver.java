@@ -18,11 +18,11 @@ public class PhoneErrorReceiver extends BroadcastReceiver {
             rilReset(context);
         }
     }
-    
+
     private void rilReset(Context context) {
         NotificationManager nm = (NotificationManager)
                 context.getSystemService(Context.NOTIFICATION_SERVICE);
-        
+
         Notification noti = new Notification.Builder(context)
                 .setContentTitle(context.getString(R.string.radioResetContentTitle))
                 .setContentText(context.getString(R.string.radioResetContentText))
