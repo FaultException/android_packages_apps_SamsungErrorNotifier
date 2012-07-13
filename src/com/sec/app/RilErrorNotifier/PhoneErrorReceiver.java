@@ -24,9 +24,9 @@ public class PhoneErrorReceiver extends BroadcastReceiver {
                 context.getSystemService(Context.NOTIFICATION_SERVICE);
         
         Notification noti = new Notification.Builder(context)
-                .setContentTitle("The radio has reset.")
-                .setContentText("A restart may be required for connectivity.")
-                .setTicker("The phone radio has reset.")
+                .setContentTitle(context.getString(R.string.radioResetContentTitle))
+                .setContentText(context.getString(R.string.radioResetContentText))
+                .setTicker(context.getString(R.string.radioResetTicker))
                 .setSmallIcon(android.R.drawable.ic_dialog_alert)
                 .setDefaults(Notification.DEFAULT_SOUND | Notification.DEFAULT_VIBRATE)
                 .getNotification();
