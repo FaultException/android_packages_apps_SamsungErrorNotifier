@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Samsung Error Receiver</string>
-    <string name="radioResetContentTitle">Phone radio has crashed!</string>
+    <string name="radioResetContentTitle">The phone radio crashed!</string>
     <string name="radioResetContentText">A restart may be required for connectivity.</string>
-    <string name="radioResetTicker">Phone radio has crashed!</string>
+    <string name="radioResetTicker">The phone radio crashed!</string>
 </resources>
